@@ -82,7 +82,7 @@ defmodule EmailDoHChecker do
             {:ok, "Domain resolved successfully"}
           end
         else
-          {:error, "No records found for the domain (NODATA)"}
+          {:ok, "No records found for the domain (NODATA)"}
         end
 
       {:ok, %{"Status" => 3}} ->

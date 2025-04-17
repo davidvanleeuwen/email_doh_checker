@@ -24,7 +24,7 @@ Add `:email_doh_checker` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:email_doh_checker, "~> 0.1.0"}
+    {:email_doh_checker, "~> 0.1.1"}
   ]
 end
 ```
